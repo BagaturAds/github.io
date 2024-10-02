@@ -1410,6 +1410,79 @@ The Clients
   margin-top: 40px;
 }
 
+.pricing-item-bilgi {
+  margin-top: 30px;
+  border-radius: 50px;
+  padding: 90px 30px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.pricing-item-bilgi:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  content: '';
+  width: 274px;
+  height: 221px;
+}
+
+.pricing-item-bilgi:after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  content: '';
+  width: 370px;
+  height: 171px;
+}
+
+.pricing-item-bilgi span.price {
+  font-size: 40px;
+  color: #fff;
+  position: absolute;
+  font-weight: 700;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+
+.pricing-item-bilgi h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.pricing-item-bilgi .icon img {
+  width: 120px;
+  height: 106px;
+  margin-bottom: 30px;
+}
+
+.pricing-item-bilgi ul li {
+  color: #EC5208;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.pricing-item-bilgi ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.pricing-item-bilgi ul li.non-function {
+  color: #afafaf;
+  text-decoration: line-through;
+}
+
+.pricing-item-bilgi .border-button {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+}
+
 .pricing-item-pro {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.07);
   border-radius: 50px;
